@@ -1,2 +1,10 @@
-package oneDigitalInovationGof.strategy;public class ComportamentoNormal {
+package oneDigitalInovationGof.strategy;
+
+public class ComportamentoNormal implements Comportamento {
+
+    @Override
+    public void mover() {
+        System.out.println("Movendo-se normalmente...");
+    }
+
 }

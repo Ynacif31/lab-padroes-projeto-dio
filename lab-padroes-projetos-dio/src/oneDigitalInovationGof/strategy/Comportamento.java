@@ -1,2 +1,5 @@
-package oneDigitalInovationGof.strategy;public interface Comportamento {
+package oneDigitalInovationGof.strategy;
+
+public interface Comportamento {
+    void mover();
 }
